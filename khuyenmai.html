@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Khuyến mãi</title>
+    
+    <link rel="icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/khuyenmaii.css">
+    <link rel="stylesheet" href="./css/footer.css">
+  </head>
+  <body>
+
+      <!-- NAVIGATION -->
+
+      <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <a class="navbar-brand" href="index.html"><img src="./images/logo1.png" alt="logo" class="logo"></a>
+        <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon">MENU</span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Trang chủ</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="sach.html" id="navbardrop" data-toggle="dropdown">Sách</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="sach.html#section1">Thời sự - Chính trị</a>
+                <a class="dropdown-item" href="sach.html#section2">Tâm lý - Kỹ năng sống</a>
+                <a class="dropdown-item" href="sach.html#section3">Văn học Việt Nam</a>
+                <a class="dropdown-item" href="sach.html#section4">Văn học nước ngoài</a>
+                <a class="dropdown-item" href="sach.html#section5">Thiếu nhi</a>
+                <a class="dropdown-item" href="sach.html#section6">Tham khảo</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link gachchan" href="khuyenmai.html">Khuyến mãi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lienhe.html">Liên hệ</a>
+            </li>
+          </ul>
+          <ul  class="navbar-nav ml-auto">
+            
+            <li class="vip">
+              <form class="d-flex vip" role="search">
+                <input class="form-control me-2" type="search" placeholder="Nhập từ muốn tìm kiếm" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i> Tìm kiếm</button>
+              </form>
+            </li>
+            <li class="vip">
+              <form action="dangnhap.html" class="vip">
+                <button type="submit" class="btn btn-danger" style="margin: 0px 10px;">
+                  <i class="fas fa-sign-in-alt"></i> Đăng Nhập
+                </button>
+              </form>
+            </li>
+            </ul>
+        </div>
+      </nav>
+    <!-- end NAVIGATION -->
+
+    <!-- Carousel -->
+    <div class="container-fluid">
+      <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#slides" data-slide-to="0" class="active"></li>
+          <li data-target="#slides" data-slide-to="1"></li>
+          <li data-target="#slides" data-slide-to="2"></li> 
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/km1.jpg">
+            <div class="carousel-caption">
+              <h1 class="display-1">Tìm hiểu về sách</h1>
+              <h3>Tìm hiểu về sách trên website trước khi mua là lựa chọn sáng suốt của bạn</h3>
+              <button type="button" class="btn btn-outline-light btn-lg">
+                SÁCH NỔI BẬT
+              </button>
+              <button type="button" class="btn btn-primary btn-lg">Get started</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/km2.jpg">
+          </div>
+          <div class="carousel-item">
+            <img src="images/km3.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jumbotron -->
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <marquee behavior="alternate"><img src="./images/logo.png">CHƯƠNG TRÌNH KHUYẾN MÃI!!! <img src="./images/logo.png"></marquee>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <button class="view" data-toggle="collapse" data-target="#emoji1">
+      Xem ngay!!!
+    </button>
+    <div id="emoji1" class="collapse">
+      <div class="container-fluid padding">
+        <div class="row text-left" style="background: blanchedalmond;">
+          <div class="col-12">
+          <h2>CHƯƠNG TRÌNH KHUYẾN MÃI</h2>
+              <i class="fas fa-fire"></i> Chào mừng ngày phụ nữ Việt Nam 20/10/2021: <br>
+              +   Giảm thêm 10% khi nhập mã PNVN2021 <br>
+              Chương trình áp dụng đối với những đơn hàng phát sinh từ ngày 15/10/2021 đến hết ngày 21/10/2021. <br>
+              <i class="fas fa-fire"></i> Sự kiện chào hè 2022: <br>
+              +   Giảm sốc 20% khi đọc mã CHAOHE2022 <br>
+              Sự kiện được bắt đầu từ ngày 01/04/2022 đến hết ngày 05/04/2022. <br>
+              <i class="fas fa-fire"></i> Nhân dịp lễ 30/04 & 01/05/2022: <br>
+              +   Giảm 15% khi khách hàng đọc mã CMLE3040105 <br>
+              Chương trình được bắt đầu từ ngày 28/04/2022 đến hết ngày 05/05/2022. <br>
+              <i class="fas fa-fire"></i> Nhân dịp Tết Thiếu Nhi 01/06/2022: <br>
+              +   Sốc! Giảm mạnh 30% khi khách hàng đọc mã THIEUNHI2022 khi mua sách thế loại "Thiếu Nhi" tại cửa hàng. <br>
+              +   Giảm 10% đối với các loại sách khác tại cửa hàng.
+              Chương trình được bắt đầu từ ngày 30/05/2022 đến hết ngày 02/06/2022. <br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-2">
+
+    <button class="fun" data-toggle="collapse" data-target="#emoji">
+      "Click vào dòng này" để xem một số hình ảnh sách nổi bật.
+    </button>
+    <div id="emoji" class="collapse">
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/sotaytoan.jpg" width="100" height="100">
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/kheoan.jpg" width="100" height="100">
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/tatden.jpg" width="100" height="100">
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/timemnoianh.jpg" width="100" height="100">
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/demen.jpg" width="100" height="100">
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/sodo.jpg" width="100" height="100">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-2">
+
+    <div id="emoji" class="collapse">
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/khonggiadinh.jpg" width="100" height="100">
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/boiduongtoan9.jpg" width="100" height="100">
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/hdonkhoaxh.jpg" width="100" height="100">
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/hieuvetraitim.jpg" width="100" height="100">
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/chuottip.jpg" width="100" height="100">
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <img class="gioithieu" src="./images/chube.jpg" width="100" height="100">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr> 
+
+  <!--FOOTER-->
+	<footer id="#vechungtoi">
+		<div class="container">
+			<!--Bắt Đầu Nội Dung Giới Thiệu-->
+			<div class="noi-dung about">
+				<h2>Về Chúng Tôi</h2>
+				<p>TNBooks cung cấp thông tin các loại sách hay, bổ ích đến người đọc. Với mục đích nâng cao nhận thức, hiểu biết về nhiều lĩnh vực trong xã hội thông qua việc đọc sách. <br>
+					Thời gian làm việc: 7h30-17h | T2 - T7</p>
+				<ul class="social-icon">
+					<li><a href=""><i class="fab fa-facebook"></i></a></li>
+					<li><a href=""><i class="fab fa-twitter"></i></a></li>
+					<li><a href=""><i class="fab fa-instagram"></i></a></li>
+					<li><a href=""><i class="fab fa-youtube"></i></a></li>
+				</ul>
+			</div>
+			<!--Kết Thúc Nội Dung Giới Thiệu-->
+			<!--Bắt Đầu Nội Dung Đường Dẫn-->
+			<div class="noi-dung links">
+				<h2>Đường Dẫn</h2>
+				<ul>
+					<li><a href="#vechungtoi">Về chúng tôi</a></li>
+					<li><a href="./index.html">Trang Chủ</a></li>
+					<li><a href="#">Giới Thiệu</a></li>
+					<li><a href="#">Khuyến Mãi</a></li>
+					<li><a href="#">Liên Hệ</a></li>
+				</ul>
+			</div>
+			<!--Kết Thúc Nội Dung Đường Dẫn-->
+			<!--Bắt Đâu Nội Dung Liên Hệ-->
+			<div class="noi-dung contact">
+				<h2>Thông Tin Liên Hệ</h2>
+				<ul class="info">
+					<li>
+						<span><i class="fa fa-map-marker"></i></span>
+						<span>470 Trần Đại Nghĩa, Hòa Hải,<br />
+							Ngũ Hành Sơn, Thành Phố Đà Nẵng,<br />
+							Việt Nam</span>
+					</li>
+					<li>
+						<span><i class="fa fa-phone"></i></span>
+						<p><a href="#">+84 388 304 745</a>
+							<br />
+							<a href="#">+84 949 802 418</a></p>
+					</li>
+					<li>
+						<span><i class="fa fa-envelope"></i></span>
+						<p><a href="#">tnbooksvku@gmail.com</a></p>
+				   </li>
+				</ul>
+			</div>
+			<!--Kết Thúc Nội Dung Liên Hệ-->
+		</div>
+		<div class="text-center p-3 text-whi">
+			<p>Copyright &copy; Trường Đại học Công nghệ Thông tin và Truyền thông Việt Hàn - Đại học Đà Nẵng 2021 - 2022</p>
+		</div>
+	</footer>
+
+
+    <!-- end FOOTER -->
+
+  </body>
+</html>
